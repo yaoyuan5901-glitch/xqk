@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "institution_001",
+    "name": "护理站",
+    "type": "护理站",
+    "address": "杭州市西湖区文三路123号",
+    "contact": "0571-88888888",
+    "icon": "https://example.com/icons/nursing_station.png",
+    "description": "专业护理站，提供全方位护理服务",
+    "is_active": 1,
+    "created_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "_id": "institution_002",
+    "name": "养老院",
+    "type": "养老院",
+    "address": "杭州市拱墅区莫干山路456号",
+    "contact": "0571-99999999",
+    "icon": "https://example.com/icons/nursing_home.png",
+    "description": "舒适养老院，提供优质养老服务",
+    "is_active": 1,
+    "created_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "_id": "institution_003",
+    "name": "长照&日托中心",
+    "type": "长照&日托",
+    "address": "杭州市上城区解放路789号",
+    "contact": "0571-77777777",
+    "icon": "https://example.com/icons/day_care.png",
+    "description": "长期照护与日间托管服务",
+    "is_active": 1,
+    "created_at": "2025-01-01T00:00:00Z"
+  }
+]

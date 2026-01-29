@@ -1,0 +1,67 @@
+{
+  "name": "user_orders",
+  "displayName": "用户订单",
+  "description": "用户订单信息表",
+  "fields": [
+    {
+      "name": "_id",
+      "displayName": "订单ID",
+      "type": "string",
+      "isPrimary": true,
+      "required": true
+    },
+    {
+      "name": "user_id",
+      "displayName": "用户ID",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "service_id",
+      "displayName": "服务ID",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "nurse_id",
+      "displayName": "护理员ID",
+      "type": "string"
+    },
+    {
+      "name": "institution_id",
+      "displayName": "机构ID",
+      "type": "string"
+    },
+    {
+      "name": "order_status",
+      "displayName": "订单状态",
+      "type": "number",
+      "description": "0-待支付，1-已支付，2-服务中，3-已完成，4-已取消"
+    },
+    {
+      "name": "total_amount",
+      "displayName": "总金额",
+      "type": "number"
+    },
+    {
+      "name": "service_date",
+      "displayName": "服务日期",
+      "type": "date"
+    },
+    {
+      "name": "service_time",
+      "displayName": "服务时间",
+      "type": "string"
+    },
+    {
+      "name": "created_at",
+      "displayName": "创建时间",
+      "type": "date"
+    },
+    {
+      "name": "updated_at",
+      "displayName": "更新时间",
+      "type": "date"
+    }
+  ]
+}

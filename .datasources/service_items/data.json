@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "service_001",
+    "name": "住家护理",
+    "icon": "https://example.com/icons/home_care.png",
+    "category": "服务",
+    "description": "专业住家护理服务",
+    "is_active": 1,
+    "price": 200,
+    "duration": "8小时/天",
+    "created_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "_id": "service_002",
+    "name": "医疗护理",
+    "icon": "https://example.com/icons/medical_care.png",
+    "category": "服务",
+    "description": "专业医疗护理服务",
+    "is_active": 1,
+    "price": 150,
+    "duration": "4小时/天",
+    "created_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "_id": "service_003",
+    "name": "长护险",
+    "icon": "https://example.com/icons/insurance.png",
+    "category": "服务",
+    "description": "长期护理保险服务",
+    "is_active": 1,
+    "price": 100,
+    "duration": "按需服务",
+    "created_at": "2025-01-01T00:00:00Z"
+  },
+  {
+    "_id": "service_004",
+    "name": "康复训练",
+    "icon": "https://example.com/icons/rehabilitation.png",
+    "category": "服务",
+    "description": "专业康复训练服务",
+    "is_active": 1,
+    "price": 120,
+    "duration": "2小时/次",
+    "created_at": "2025-01-01T00:00:00Z"
+  }
+]

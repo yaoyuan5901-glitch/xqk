@@ -1,0 +1,73 @@
+{
+  "name": "nurse_info",
+  "displayName": "护理员信息",
+  "description": "护理员基本信息表",
+  "fields": [
+    {
+      "name": "_id",
+      "displayName": "ID",
+      "type": "string",
+      "isPrimary": true,
+      "required": true
+    },
+    {
+      "name": "name",
+      "displayName": "姓名",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "height",
+      "displayName": "身高",
+      "type": "number",
+      "description": "单位：米"
+    },
+    {
+      "name": "weight",
+      "displayName": "体重",
+      "type": "number",
+      "description": "单位：公斤"
+    },
+    {
+      "name": "experience",
+      "displayName": "从业年限",
+      "type": "number"
+    },
+    {
+      "name": "specialty",
+      "displayName": "擅长领域",
+      "type": "string"
+    },
+    {
+      "name": "personality",
+      "displayName": "性格特点",
+      "type": "string"
+    },
+    {
+      "name": "avatar_url",
+      "displayName": "头像路径",
+      "type": "string"
+    },
+    {
+      "name": "status",
+      "displayName": "在职状态",
+      "type": "number",
+      "description": "0-离职，1-在职"
+    },
+    {
+      "name": "institution_id",
+      "displayName": "所属机构ID",
+      "type": "string"
+    },
+    {
+      "name": "created_at",
+      "displayName": "创建时间",
+      "type": "date"
+    },
+    {
+      "name": "updated_at",
+      "displayName": "更新时间",
+      "type": "date"
+    }
+  ]
+}

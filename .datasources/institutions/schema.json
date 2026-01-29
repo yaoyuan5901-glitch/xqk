@@ -1,0 +1,57 @@
+{
+  "name": "institutions",
+  "displayName": "实体机构",
+  "description": "实体机构信息表",
+  "fields": [
+    {
+      "name": "_id",
+      "displayName": "ID",
+      "type": "string",
+      "isPrimary": true,
+      "required": true
+    },
+    {
+      "name": "name",
+      "displayName": "机构名称",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "type",
+      "displayName": "机构类型",
+      "type": "string",
+      "description": "如：护理站、养老院、长照&日托等"
+    },
+    {
+      "name": "address",
+      "displayName": "地址",
+      "type": "string"
+    },
+    {
+      "name": "contact",
+      "displayName": "联系方式",
+      "type": "string"
+    },
+    {
+      "name": "icon",
+      "displayName": "图标路径",
+      "type": "string"
+    },
+    {
+      "name": "description",
+      "displayName": "机构描述",
+      "type": "string"
+    },
+    {
+      "name": "is_active",
+      "displayName": "是否启用",
+      "type": "number",
+      "description": "0-禁用，1-启用"
+    },
+    {
+      "name": "created_at",
+      "displayName": "创建时间",
+      "type": "date"
+    }
+  ]
+}
