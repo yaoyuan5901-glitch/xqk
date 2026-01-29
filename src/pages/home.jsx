@@ -9,6 +9,7 @@ export default function HomePage(props) {
   const [nurses, setNurses] = useState([]);
   const [services, setServices] = useState([]);
   const [institutions, setInstitutions] = useState([]);
+  const [activeTab, setActiveTab] = useState('home');
   useEffect(() => {
     loadData();
   }, []);
